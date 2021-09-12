@@ -183,3 +183,10 @@ button.ghost{
 .container.right-panel-active .overlay-right{
     transform:translateX(20%);
 }
+
+.validate{
+    display: none;
+}
+.danger{
+    color:rgb(255, 1, 1);
+}
