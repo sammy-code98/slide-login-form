@@ -193,3 +193,6 @@ button.ghost{
 .email-danger{
     margin-bottom: 12px;
 }
+.link:hover{
+    color: #ff4b2b;
+}
