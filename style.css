@@ -190,3 +190,6 @@ button.ghost{
 .danger{
     color:rgb(255, 1, 1);
 }
+.email-danger{
+    margin-bottom: 12px;
+}

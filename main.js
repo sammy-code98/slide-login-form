@@ -26,12 +26,12 @@ function validate() {
   if (fullName.value && email.value && password.value) {
     document.querySelector(".submitBtn").type = "submit";
   } else {
-    if (fullName.value == " " || fullName == undefined) {
+    if (fullName.value == "" || fullName == undefined) {
       nameVal.style = "display:block";
     } else if (fullName.value !== null) {
       nameVal.style = "display:none";
     }
-    if (email.value == " " || email == undefined) {
+    if (email.value == "" || email == undefined) {
       emailVal.style = "display:block";
     } else if (email.value !== null) {
       emailVal.style = "display:none";
